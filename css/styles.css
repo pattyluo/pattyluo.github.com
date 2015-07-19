@@ -1,0 +1,222 @@
+	float: right;
+
+}
+
+.menu li{
+	margin-top: 52px;
+	margin-left: 28px;
+	list-style: none;
+	float: left;
+	font: 14px 宋体;
+	
+}
+.menu li a{
+	color:white;
+	text-decoration:none;
+}
+
+.githubIcon{
+	float: right;
+	height: 34px;	
+	margin-right:10px;
+	margin-top: 46px;
+}
+.banner{
+	width: 100%;
+	text-align: center;
+    
+}
+.bannerimg{
+	width: 1200px;
+	margin:auto;
+    
+}
+.bannerimg img{
+	width: 1200px;	
+	height: 488px;
+	
+}
+
+.describe{
+	width: 980px;
+	height: 112px;
+	margin:auto;
+	margin-top: -113px;	
+	
+}
+.describedetail{
+	width:335px; 
+    height:110px; 
+    float: right;
+   
+}
+
+.content{
+   
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	cursor: pointer;
+
+}
+.singlelist{
+	width: 320px;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.singlelist img{
+	height: 180px;
+	margin: 10px 0 0 10px;
+
+}
+.imgdetail{
+	font: 12px/170% 宋体;
+	margin: 15px 30px 25px;
+	text-align: left;
+	text-indent:2em;
+}
+.imgdetail p{
+	padding: 0;
+    margin: 0;
+}
+
+.personalcontent{
+	width: 1200px;
+	text-align: center;
+	margin:auto;
+
+
+}
+.personalcontent img{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 50px;
+}
+.personaldescribe{
+	margin-top: -110px;
+   
+	background-color: white;
+}
+.personalname{
+	font: 20px 'Century Gothic';
+	padding: 160px 0 30px 0;
+	text-align: center;
+}
+.personaldescribep{
+	text-align: left;
+	font: 14px black;
+	width: 600px;
+	display: inline-block;	
+	text-indent: 2em;
+	padding-bottom: 90px;
+	margin-bottom: 100px;
+	text-align:justify; 
+
+}
+footer{
+	background-color: #000;
+	width: 1200px;
+	height: 400px;
+	color: white;
+	font: 12px 微软雅黑;
+	margin:auto;
+	text-align: center;
+}
+
+footer nav{
+	line-height: 35px;
+	height: 35px;
+	width: 1200px;
+	text-align: center;
+}
+footer nav{
+	line-height: 35px;
+	height: 35px;
+	text-align: center;
+	border-bottom: 1px solid #333;
+}
+footer nav ul{
+	padding: 0;
+	margin:0;
+	display: inline-block;
+}
+footer nav ul li{
+	display: inline-block;
+	float: left;
+	padding: 0 15px;
+	transition: background-color 0.3s ease;
+}
+
+footer nav ul li a{
+	color:white;
+	text-decoration:none;
+}
+
+footer nav ul li:hover{
+	background-color: rgb(254, 203, 135);
+}
+footer nav ul li:last-child{
+	margin-right: 0;
+}
+.clearfix:after{
+	height: 0;
+	display: block;
+	clear: both;
+	content: ".";
+	visibility: hidden;
+	overflow: hidden;
+}
+.footercontent{
+	height: 300px;
+	text-align: center;
+}
+.footercontent ul{
+	padding: 0;
+	margin:0;
+}
+.footercontent li{
+	list-style: none;
+}
+.footnav2{
+	display: inline-block;
+	margin-top: 40px !important;
+}
+.footnav2 > li{
+	float: left;
+	margin-right: 130px;
+}
+.footnav2 > li:last-child{
+	margin-right: 0;
+}
+.footnav3{
+	margin-top: 30px !important;
+}
+.footnav3 li{
+	font: 10px/20px 宋体;
+	text-align: left;
+}
+.footnav3 li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.footerend{
+	font:12px 宋体;
+	display: inline-block;
+	margin-top: -9px;
+
+}
+
+.clearfix:after{
+	clear: both;
+	content: ".";
+	visibility: hidden;
+	height: 0;
+	overflow: hidden;
+	display: block;
+}
+
+

@@ -59,6 +59,9 @@ body{
 	height: 34px;	
 	margin-right:10px;
 	margin-top: 46px;
+	white-space:nowrap;
+    overflow:hidden;
+	display:block
 }
 .banner{
 	width: 100%;
@@ -91,25 +94,53 @@ body{
 }
 
 .content{
-   
+    width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	cursor: pointer;
+	text-align: center;
+
+}
+.list{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	cursor: pointer;
+	margin:auto;
+	margin-right: 0px;
+	margin-left: 0px;
 
 }
 .singlelist{
 	width: 320px;
 	background-color: white;
 	margin-top: 10px;
-	margin-left: 10px;
+	
 	display: inline-block;
+	
 }
+.singlelist1{
+	width: 320px;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	
+}
+
 .singlelist img{
 	height: 180px;
-	margin: 10px 0 0 10px;
+	margin: 10px 0 0 0px;
 
 }
+.singlelist1 img{
+	height: 180px;
+	margin: 10px 0 0 0px;
+
+}
+
 .imgdetail{
 	font: 12px/170% 宋体;
 	margin: 15px 30px 25px;

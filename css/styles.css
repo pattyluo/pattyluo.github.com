@@ -1,3 +1,42 @@
+body{
+	background-color: #eee;
+	margin:0px;
+	min-width: 980px;
+}
+.top{
+	height: 80px;
+	width: 1200px;
+	background-color: purple;	
+	text-align: center;
+	margin:auto;
+	margin-top: 0px;
+}
+.block{
+	width: 980px;
+	height: 70px;
+	display: inline-block;	
+	margin-bottom: 10px;
+	position:relative;
+
+}
+.logo{
+	height: 70px;
+	width: 127px;
+	float: left;
+	margin-left: 0px;
+} 
+.logo img{
+	
+	margin-top: 50px;
+	margin-left: 0px;
+	float: left;
+	height: 20px;
+
+}
+.menu{
+    height: 70px;
+	margin:0px;
+	padding: 0;	
 	float: right;
 
 }

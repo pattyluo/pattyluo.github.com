@@ -1,3 +1,42 @@
+	body{
+	background-color: #eee;
+	margin:0px;
+	min-width: 980px;
+}
+.top{
+	height: 80px;
+	width: 1200px;
+	background-color: purple;	
+	text-align: center;
+	margin:auto;
+	margin-top: 0px;
+}
+.block{
+	width: 980px;
+	height: 70px;
+	display: inline-block;	
+	margin-bottom: 10px;
+	position:relative;
+
+}
+.logo{
+	height: 70px;
+	width: 127px;
+	float: left;
+	margin-left: 0px;
+} 
+.logo img{
+	
+	margin-top: 50px;
+	margin-left: 0px;
+	float: left;
+	height: 20px;
+
+}
+.menu{
+    height: 70px;
+	margin:0px;
+	padding: 0;	
 	float: right;
 
 }
@@ -7,7 +46,7 @@
 	margin-left: 28px;
 	list-style: none;
 	float: left;
-	font: 14px å®‹ä½“;
+	font: 14px ËÎÌå;
 	
 }
 .menu li a{
@@ -72,7 +111,7 @@
 
 }
 .imgdetail{
-	font: 12px/170% å®‹ä½“;
+	font: 12px/170% ËÎÌå;
 	margin: 15px 30px 25px;
 	text-align: left;
 	text-indent:2em;
@@ -122,7 +161,7 @@ footer{
 	width: 1200px;
 	height: 400px;
 	color: white;
-	font: 12px å¾®è½¯é›…é»‘;
+	font: 12px Î¢ÈíÑÅºÚ;
 	margin:auto;
 	text-align: center;
 }
@@ -196,7 +235,7 @@ footer nav ul li:last-child{
 	margin-top: 30px !important;
 }
 .footnav3 li{
-	font: 10px/20px å®‹ä½“;
+	font: 10px/20px ËÎÌå;
 	text-align: left;
 }
 .footnav3 li:hover{
@@ -204,7 +243,7 @@ footer nav ul li:last-child{
 	cursor: pointer;
 }
 .footerend{
-	font:12px å®‹ä½“;
+	font:12px ËÎÌå;
 	display: inline-block;
 	margin-top: -9px;
 
@@ -218,5 +257,3 @@ footer nav ul li:last-child{
 	overflow: hidden;
 	display: block;
 }
-
-
